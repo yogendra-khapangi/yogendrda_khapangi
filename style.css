@@ -1,0 +1,65 @@
+h1{
+	background-color:green;
+	margin:0px;
+}
+header{
+	background-color: green;
+	padding:20px;
+	text-align:center;
+	color:white;
+	font-family:"comic sin ms";
+}
+nav{
+	position: sticky;
+	top:4px;
+	overflow:hidden;
+	background-color:#333
+}
+nav a{
+	float:left;
+	color:red;
+	padding:14px;
+	text-decoration:none;
+
+}
+nav a:hover{
+	background-color:black;
+	color:white;
+	text-align: justify-all;
+}
+footer{
+	background-color: green;
+	color:black;
+	padding:15px;
+	text-align:center;
+}
+img{
+	border-image:black;
+}
+h2{
+	background-color:red;
+	color:black;
+}
+input[type=text],[type=number]{
+	width: 75%;
+	padding: 12px;
+	border: 2px solid #ccc;
+}
+@media screen and (max-width: 617px){
+	p{
+		width: 100%;
+		padding: 20px;
+		text-align: justify-all;
+	}
+}
+nav{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+}
+a{
+	display: flex;
+}
+tr{
+	border: 2px solid blue;
+}
